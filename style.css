@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: lightgray;
+    background-color: white;
     height: 100px;
 }
 
@@ -43,6 +43,7 @@ header #navbar {
     text-decoration: none;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
 
 }
 
@@ -53,8 +54,8 @@ header #navbar {
 
 #navbar li {
     display: inline-block;
-    margin: 30px;
-    margin-top: 5%;
+    margin-right: 4em;
+    margin-top: 4%;
 
 }
 
@@ -63,4 +64,20 @@ header #navbar {
 h2 {
     font-size: 125px;
     text-align: center;
+}
+main{
+    margin: 0;
+}
+#photoAccueil{
+   height: 55em;
+   width: 100%;
+   opacity: 0.8;
+   position: relative;
+}
+
+h2{
+position: absolute;
+
+left: 5.5em;
+
 }
