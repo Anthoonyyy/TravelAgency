@@ -9,14 +9,14 @@ body {
 }
 
 header {
-    background-color: white;
+    background-color: lightgray;
     height: 100px;
 }
 
 #titreLogo {
     font-size: 40px;
     position: relative;
-    margin-left: 20px;
+    margin-left: 2%;
     left: 200px;
     font-family: 'Aladin', Arial, Helvetica, sans-serif;
 }
@@ -25,7 +25,7 @@ header {
     width: 50px;
     position: absolute;
     top: 18px;
-    left: 420px;
+    left: 23%;
 }
 
 header #titreLogo {
@@ -34,7 +34,7 @@ header #titreLogo {
 
 header #navbar {
     float: right;
-    margin-right: 200px;
+    margin-right: 17%;
     z-index: 1000;
 
 }
@@ -54,7 +54,7 @@ header #navbar {
 #navbar li {
     display: inline-block;
     margin: 30px;
-    margin-top: 20px;
+    margin-top: 5%;
 
 }
 
