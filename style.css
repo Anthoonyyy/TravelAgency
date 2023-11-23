@@ -1,83 +1,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
 
 body {
     margin: 0;
     padding: 0;
 
+
 }
 
 header {
-    background-color: white;
-    height: 100px;
+    position: relative;
+    height: 100vh;
+    background-image: url(images/photoaccueil.jpg);
+    background-size: cover;
+
 }
 
+
+/*Div qui me permet d'avoir la transparence qui sépare ma barre de nav et mon image d'accueil*/
+#transparence {
+    background-color: #dce3f415;
+    height: 6em;
+}
+
+/*Correspond à mon titre de logo "Travel Agency"*/
 #titreLogo {
     font-size: 40px;
     position: relative;
     margin-left: 2%;
-    left: 200px;
+    left: 5%;
     font-family: 'Aladin', Arial, Helvetica, sans-serif;
+    color: white;
 }
 
+/*Logo palmier */
 #logo {
     width: 50px;
     position: absolute;
     top: 18px;
-    left: 23%;
+    left: 20%;
 }
 
+/*Cible mon logo "Travel Agency" qui est à l'intérieur du header*/
 header #titreLogo {
     float: left;
 }
 
+/*Cible ma barre de naviguation qui est à l'intérieur de mon header */
 header #navbar {
     float: right;
-    margin-right: 17%;
-    z-index: 1000;
+    margin-right: 14%;
 
 }
 
+/*Cible les liens de ma barre de naviguation ( Accueil, destinations, contact)*/
 #navbar a {
     text-decoration: none;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #cedada;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 1.2em;
 
 }
 
+/*Permet d'enlever les puces de mes listes présent dans ma barre de nav*/
 #navbar ul {
     list-style-type: none;
 
 }
 
+/*Permet de mettre mes li sur la même ligne et les espacer de la droite et du haut de l'écran*/
 #navbar li {
     display: inline-block;
-    margin-right: 4em;
+    margin-right: 3em;
     margin-top: 4%;
 
 }
 
-
-
-h2 {
-    font-size: 125px;
+#intro {
+    font-size: 3.5em;
     text-align: center;
-}
-main{
-    margin: 0;
-}
-#photoAccueil{
-   height: 55em;
-   width: 100%;
-   opacity: 0.8;
-   position: relative;
+    position: relative;
+    top: 0.8em;
+    font-family: 'Bubblegum Sans', sans-serif;
+    color: #161f2d;
 }
 
-h2{
-position: absolute;
 
-left: 5.5em;
+@media only screen and (max-width: 1536px) {
+    #titreLogo {
+        font-size: 30px;
+        margin-left: 5%;
+        top: 10%;
+    }
+
+    #logo {
+        width: 50px;
+    }
+
+    header #navbar {
+        margin-right: 14%;
+    }
+
+    #navbar li {
+        margin-right: 2.5em;
+    }
+
 
 }
