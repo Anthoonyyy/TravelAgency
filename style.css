@@ -40,7 +40,7 @@ header {
     width: 50px;
     position: absolute;
     top: 18px;
-    left: 20%;
+  left: 20%;
 }
 
 /*Cible mon logo "Travel Agency" qui est à l'intérieur du header*/
@@ -82,12 +82,12 @@ header #navbar {
     font-size: 3.5em;
     text-align: center;
     position: relative;
-    top: 0.8em;
+   top: 2em;
     font-family: 'Bubblegum Sans', sans-serif;
     color: #161f2d;
 }
 
-
+/*Ecran pc portable largeur de 153px*/
 @media only screen and (max-width: 1536px) {
     #titreLogo {
         font-size: 30px;
@@ -97,6 +97,9 @@ header #navbar {
 
     #logo {
         width: 50px;
+        margin-left: 1.8em;
+
+        
     }
 
     header #navbar {
@@ -106,6 +109,20 @@ header #navbar {
     #navbar li {
         margin-right: 2.5em;
     }
+    #intro{
+        margin-top: 0.1em;
+    }
 
+}
 
+@media only screen and (max-width: 1920px) {
+    #titreLogo {
+        font-size: 30px;
+        margin-left: 5%;
+        top: 10%;
+    }
+    #logo{
+        left: 18%;
+    }
+    
 }
