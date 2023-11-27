@@ -40,7 +40,7 @@ header {
     width: 50px;
     position: absolute;
     top: 18px;
-  left: 20%;
+    left: 20%;
 }
 
 /*Cible mon logo "Travel Agency" qui est à l'intérieur du header*/
@@ -82,9 +82,88 @@ header #navbar {
     font-size: 3.5em;
     text-align: center;
     position: relative;
-   top: 2em;
+    top: 1em;
     font-family: 'Bubblegum Sans', sans-serif;
     color: #161f2d;
+}
+
+/*Correspond à la div recherche*/
+#recherche {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    /*Espace intérieur de la div*/
+    width: 70%;
+    position: relative;
+    /*Position relatif pour positionner les élèments enfants*/
+    border-radius: 30px;
+    margin: 0 auto;
+    /*Centre horizontalement dans son conteneur parent*/
+    bottom: -17em;
+    /*Permet de décaler vers le haut par rapport à sa position normale*/
+
+}
+
+/*Element form à l'intérieur de la div recherche*/
+#recherche form {
+    display: flex;
+    /* Utilisation de flexbox pour organiser les éléments en ligne */
+    justify-content: space-between;
+    /*Permet un espace équitable entre les éléments*/
+    align-items: flex-end;
+    /*Permet d'aligner les éléments en bas de la div*/
+    width: 100%;
+    /*Le formulaire prend toute la largeur disponible*/
+}
+
+#recherche form .form-group,
+#recherche form input[type="submit"] {
+    display: flex;
+    /*Utilisation de flexbox pour organiser les éléments en colonne*/
+    flex-direction: column;
+    /*Place les éléments en colonne*/
+    width: 20%;
+}
+
+#recherche form label {
+    color: #161f2d;
+    /*Couleur du texte des labels*/
+    font-size: 15px;
+    margin-bottom: 10px;
+    /*Marge en bas du label pour les espacer des inputs*/
+    font-weight: bold;
+
+}
+
+#recherche form input {
+    padding: 5px 20px;
+    /*Remplissage interne de l'input*/
+    background-color: #161f2dcb;
+    border: 1px solid #161f2d;
+    border-radius: 10px;
+    font-size: 13px;
+    color: #fff;
+    margin-right: 30px;
+    /*Marge droite des inputs pour les espacer*/
+}
+
+#recherche form input[type="submit"] {
+    display: flex;
+    /*Utilisation de flexbox pour organiser les éléments en ligne*/
+    align-items: center;
+    /*Permet d'aligner verticalement au centre*/
+    text-transform: uppercase;
+    /*Mets le texte du bouton submit en majuscule*/
+    color: #fff;
+    cursor: pointer;
+    /*Change le curseur de la souris pour indiquer que le bouton submit est cliquable*/
+    width: 9.6em;
+    background-color: orangered;
+}
+
+/*Petit effet box shadow au survol du bouton submit*/
+#recherche form input[type="submit"]:hover {
+    box-shadow: 0 0 10px orangered,
+        0 0 20px orangered;
 }
 
 /*Ecran pc portable largeur de 153px*/
@@ -99,7 +178,7 @@ header #navbar {
         width: 50px;
         margin-left: 1.8em;
 
-        
+
     }
 
     header #navbar {
@@ -109,8 +188,9 @@ header #navbar {
     #navbar li {
         margin-right: 2.5em;
     }
-    #intro{
-        margin-top: 0.2em;
+
+    #intro {
+        margin-top: 0.8em;
     }
 
 }
@@ -121,8 +201,9 @@ header #navbar {
         margin-left: 5%;
         top: 10%;
     }
-    #logo{
+
+    #logo {
         left: 18%;
     }
-    
+
 }

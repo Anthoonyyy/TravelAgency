@@ -32,6 +32,28 @@
             </nav>
         </div>
         <h2 id="intro">Organisez votre voyage sur mesure</h2>
+        <div id="recherche">
+            <form action="GET">
+                <div class="form-group">
+                    <label for="destinations">Trouvez votre séjour idéal</label>
+                    <input type="text" name="destinations" id="destinations" placeholder="Ville, pays, région..">
+                </div>
+                <div class="form-group">
+                    <label for="aller">Date aller</label>
+                    <input type="date" name="aller" id="aller">
+                </div>
+                <div class="form-group">
+                    <label for="retour">Date retour</label>
+                    <input type="date" name="retour" id="retour">
+                </div>
+                <div class="form-group">
+                    <label for="voyageurs">Voyageurs</label>
+                    <input type="number" name="voyageurs" id="voyageurs" min="1">
+                </div>
+                <input type="submit" value="Recherchez">
+        </div>
+        </form>
+        </div>
     </header>
     <section id="services">
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo harum consectetur incidunt ea repudiandae modi
