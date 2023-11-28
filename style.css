@@ -205,5 +205,10 @@ header #navbar {
     #logo {
         left: 18%;
     }
-
+    #recherche{
+        bottom:-35em;
+}
+    #intro{
+        font-size: 4em;
+    }
 }
