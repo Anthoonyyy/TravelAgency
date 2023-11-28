@@ -176,7 +176,7 @@ header #navbar {
 
     #logo {
         width: 50px;
-        margin-left: 1.8em;
+        margin-left: 0.250em;
 
 
     }
@@ -206,8 +206,6 @@ header #navbar {
         left: 18%;
     }
 
-    #recherche {
-        margin-top: 400px;
-    }
+
 
 }
