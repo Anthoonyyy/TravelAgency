@@ -195,7 +195,7 @@ header #navbar {
 
 }
 
-@media only screen and (max-width: 1920px) {
+@media only screen and (min-width:1540px) and (max-width: 1920px) {
     #titreLogo {
         font-size: 30px;
         margin-left: 5%;
@@ -206,6 +206,8 @@ header #navbar {
         left: 18%;
     }
 
-
+    #recherche {
+        margin-top: 400px;
+    }
 
 }
