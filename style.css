@@ -166,6 +166,21 @@ header #navbar {
         0 0 20px orangered;
 }
 
+#voyagePopulaire h2{
+    text-align: center;
+    font-family: 'Aladin', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+#photoDestinations{
+    display: flex;
+    justify-content: space-around;
+  
+}
+#photoDestinations img{
+    width: 20%;
+    height: 30%;
+   
+}
 /*Ecran pc portable largeur de 153px*/
 @media only screen and (max-width: 1536px) {
     #titreLogo {
